@@ -1,11 +1,11 @@
 import React from 'react';
-import Begin from './Begin'
+import Begin from './Begin';
+import Name from './Name'
 
 const HomePage = () => {
     return(
         <div>
-            {/* <Button /> */}
-            <h1>Hello World</h1>
+            <Name/>
             <Begin/>
         </div>
     )
