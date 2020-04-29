@@ -2,6 +2,7 @@ import React from "react";
 import Thematics from './Thematics';
 import Title from "./Title";
 import Timer from "./Timer";
+import Start from "./Start";
 
 
 class YogaRoom extends React.Component {  
@@ -21,6 +22,7 @@ class YogaRoom extends React.Component {
             <Title />
             <Thematics />
             <Timer />
+            <Start />
         </div>
         )
     }

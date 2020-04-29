@@ -1,8 +1,6 @@
 import React from "react";
-import FiveMinuts from "./sub-Timer/FiveMinuts";
-import TenMinuts from "./sub-Timer/TenMinuts";
 
-class Timer extends React.Component {  
+class FiveMinuts extends React.Component {  
     styles = {
         container: {
             display: 'flex',
@@ -16,12 +14,10 @@ class Timer extends React.Component {
     render () {
         return (
         <div>
-            <p>TIMER</p>
-            <FiveMinuts />
-            <TenMinuts />
+            <p>5MINUTS</p>
         </div>
         )
     }
 }
 
-export default Timer
+export default FiveMinuts
