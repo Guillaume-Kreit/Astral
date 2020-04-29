@@ -1,23 +1,22 @@
-import React from "react";
+import React from 'react';
 
-class Title extends React.Component {  
-    styles = {
+const Title = () => {
+
+    const styles = {
         container: {
             display: 'flex',
-            height: '30vh',
-            width: '80%',
-            margin: '0px',
+            fontSize : '40px',
+            justifyContent: 'center',
             backGroundColor: 'yellow',
-        },
-    }
+        }
+        }
 
-    render () {
-        return (
-        <div>
-            <p>TITLE</p>
+    return(
+        <div style={styles.container}>
+            <h1>Parameter</h1>
         </div>
-        )
-    }
+    );
+    
 }
 
-export default Title
+export default Title;

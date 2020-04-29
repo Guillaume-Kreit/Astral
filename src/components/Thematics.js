@@ -4,28 +4,28 @@ import Forest from './sub-Thematics/Forest';
 import Mountain from './sub-Thematics/Mountain';
 import Desert from './sub-Thematics/Desert';
 
-class Thematics extends React.Component {  
-    styles = {
+
+const Thematics = () => {
+
+    const styles = {
         container: {
             display: 'flex',
-            height: '30vh',
-            width: '80%',
-            margin: '10px',
+            fontSize : '40px',
+            marginLeft : '15%',
             backGroundColor: 'yellow',
-        },
-    }
+        }
+        }
 
-    render () {
-        return (
-        <div>
-            <p>THEMATICS</p>
-            <Forest />
-            <Beach />
-            <Mountain />
-            <Desert />
+    return(
+        <div >
+        <p style={styles.container}>THEMATICS</p>
+        <Forest />
+        <Beach />
+        <Mountain />
+        <Desert />
         </div>
-        )
-    }
+    );
+    
 }
 
 export default Thematics

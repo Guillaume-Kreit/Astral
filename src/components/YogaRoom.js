@@ -18,7 +18,6 @@ class YogaRoom extends React.Component {
     render () {
         return (
         <div>
-            <p>YOGAROOM</p>
             <Title />
             <Thematics />
             <Timer />
