@@ -1,12 +1,19 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Begin = () => {
+  const styles = {
+    container: {
+        display: 'flex',
+        fontSize : '40px',
+        justifyContent: 'center',
+    }
+}
   return(
-    <nav>
-      <NavLink activeClassName="active" exact to="/YogaRoom">
+    <nav style={styles.container}>
+      <Link activeClassName="active" exact to="/YogaRoom">
             Begin
-      </NavLink>
+      </Link>
     </nav>
   )
 }

@@ -5,7 +5,7 @@ import Name from './Name'
 const HomePage = () => {
     return(
         <div>
-            <h1>ASTRAL JOURNEY</h1>
+            <Name />
             <Begin/>
         </div>
     )
