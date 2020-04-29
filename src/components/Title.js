@@ -7,7 +7,6 @@ const Title = () => {
             display: 'flex',
             fontSize : '40px',
             justifyContent: 'center',
-            backGroundColor: 'yellow',
         }
         }
 

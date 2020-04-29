@@ -4,7 +4,6 @@ import Forest from './sub-Thematics/Forest';
 import Mountain from './sub-Thematics/Mountain';
 import Desert from './sub-Thematics/Desert';
 
-
 const Thematics = () => {
 
     const styles = {
@@ -25,7 +24,6 @@ const Thematics = () => {
         <Desert />
         </div>
     );
-    
 }
 
 export default Thematics
