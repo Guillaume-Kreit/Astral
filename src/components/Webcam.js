@@ -4,6 +4,7 @@ import axios from 'axios';
 class Webcam extends React.Component {
     state = {
         isActive: true,
+        id: '1010243760',
         category: '',
         src: '',
     }
@@ -11,12 +12,11 @@ class Webcam extends React.Component {
     styles = {
         container: {
             display: 'flex',
-            height: '100vh',
-            width: '100%',
+            height: '90vh',
+            width: '90%',
             margin: '0px',
             border: '10px',
             position: 'absolut',
-            background: 'blue',
         },
     }
 
@@ -24,29 +24,30 @@ class Webcam extends React.Component {
         this.setState({ category : 'beach' })
         
         axios
-          .get('https://api.windy.com/api/webcams/v2/list/webcam=1259146823?show=webcams:image,location,player', {
+          .get('https://api.windy.com/api/webcams/v2/list/?key=20FwpHPZeZxGaR9V4acnJGDG0r5kTh04', {
               method: 'get',
-              headers: {
-                "x-windy-key": "20FwpHPZeZxGaR9V4acnJGDG0r5kTh04"
-              }
-          })
+            })
           .then(res => {
-            console.log(res.data)
-            console.log('HELLO')
-            console.log(res.data.result.webcams[0].player.lifetime.embed)
+            console.log(res.data.result.webcams[0].id)
                 this.setState({
-                isActive: true,
-                src: ""
-                });
+                    isActive: true,
+                    id: res.data.result.webcams[0].id,
+                    });
           })
           .catch(err => {
               console.log(err.message)
           })
     }
 
+    componentDidMount = () => {
+        
+    }
+
     render () {
         return (
-        <div style={this.styles.container} onClick={this.showBeachWebcam}>
+        <div onClick={this.showBeachWebcam}>
+            <iframe src={"https://webcams.windy.com/webcams/public/embed/player/"+this.state.id+"/lifetime"} style={this.styles.container}>
+            </iframe>
         </div>
         )
     }
