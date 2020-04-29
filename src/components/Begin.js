@@ -1,23 +1,14 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-class Begin extends React.Component {  
-    styles = {
-        container: {
-            display: 'flex',
-            height: '30vh',
-            width: '80%',
-            margin: '0px',
-            backGroundColor: 'yellow',
-        },
-    }
-
-    render () {
-        return (
-        <div>
-            <p>Begin</p>
-        </div>
-        )
-    }
+const Begin = () => {
+  return(
+    <nav>
+      <NavLink activeClassName="active" exact to="/YogaRoom">
+            Begin
+      </NavLink>
+    </nav>
+  )
 }
 
-export default Begin
+export default Begin;
