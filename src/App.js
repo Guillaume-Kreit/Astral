@@ -1,17 +1,18 @@
 import React from 'react';
 import './App.css';
 import YogaRoom from './components/YogaRoom';
-
+import {Switch, Route} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
       <header className="App-header">
-       <h1>Yo</h1>
+      <Switch>
+      <Route exact path="/" component={YogaRoom} />
+      <Route path="/game/:gameID" component={GameInfo} />
+    </Switch>
+
       </header>
-=======
-      <YogaRoom />
->>>>>>> 7c11ae6e9eaeabe3f5611266d603d5cf45de6c98
+
     </div>
   );
 }
