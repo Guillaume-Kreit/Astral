@@ -4,7 +4,7 @@ class Webcam extends React.Component {
 
     styles = {
         container: {
-            display: 'flex',
+            display: 'block',
             height: '100vh',
             width: '100vw',
             margin: '0px',
@@ -15,7 +15,7 @@ class Webcam extends React.Component {
     render () {
 
         return (
-            <iframe src={"https://webcams.windy.com/webcams/public/embed/player/"+this.props.id+"/lifetime"} style={this.styles.container}>
+            <iframe id={this.props.id} src={"https://webcams.windy.com/webcams/public/embed/player/"+this.props.id+"/day"} style={this.styles.container}>
             </iframe>
         )
     }

@@ -6,17 +6,19 @@ class Mountain extends React.Component {
             display: 'flex',
             justifyContent: 'center',
             color : 'white',
+            border: '3px white solid',
+            padding : '20px',
+            width: '70px',
         },
         cadre: {
-            border: '3px white solid',
-            padding : '5px',
+            textAlign: 'center'
         }
     }
 
     render () {
         return (
         <div style={this.styles.container} onClick={(event)=>this.props.showMountainWebcam(event)}>
-            <p style={this.styles.cadre} >MONTAIN</p>
+            <p style={this.styles.cadre} >MOUNTAIN</p>
         </div>
         )
     }

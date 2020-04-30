@@ -6,17 +6,20 @@ class Desert extends React.Component {
             display: 'flex',
             justifyContent: 'center',
             color : 'white',
+            border: '3px white solid',
+            padding : '20px',
+            width: '70px',
         },
         cadre: {
-            border: '3px white solid',
             padding : '5px',
+            textAlign: 'center'
         }
     }
 
     render () {
         return (
         <div style={this.styles.container} onClick={(event)=>this.props.showIslandWebcam(event)}>
-            <p style={this.styles.cadre} >DESERT</p>
+            <p style={this.styles.cadre} >ISLAND</p>
         </div>
         )
     }

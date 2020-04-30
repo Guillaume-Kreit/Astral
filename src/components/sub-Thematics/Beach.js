@@ -6,10 +6,13 @@ class Beach extends React.Component {
             display: 'flex',
             justifyContent: 'center',
             color : 'white',
+            padding: '20px',
+            width: '70px',
+            border: '3px white solid',
+            padding : '20px',
         },
         cadre: {
-            border: '3px white solid',
-            padding : '5px',
+            textAlign: 'center'
         }
     }
 
