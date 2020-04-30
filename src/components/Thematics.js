@@ -19,6 +19,7 @@ class Thematics extends React.Component {
             color : 'white',
             
         }
+    }
     
     render () {
         const { 
@@ -29,8 +30,8 @@ class Thematics extends React.Component {
         } = this.props
 
        return(
-            <div style={styles.container}>
-            <p style={styles.cadre}>THEMATICS</p>
+            <div style={this.styles.container}>
+            <p style={this.styles.cadre}>THEMATICS</p>
             <Forest onClick={showBeachWebcam} />
             <Beach onClick={showMountainWebcam} />
             <Mountain onClick={showForestWebcam} />
