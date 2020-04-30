@@ -9,10 +9,15 @@ class Thematics extends React.Component {
     styles = {
         container: {
             display: 'flex',
+        },
+
+        cadre : {
+            
             fontSize : '40px',
             marginLeft : '15%',
-            backGroundColor: 'yellow',
-        }
+            width : '25%',
+            color : 'white',
+            
         }
     
     render () {
@@ -24,17 +29,16 @@ class Thematics extends React.Component {
         } = this.props
 
        return(
-        <div >
-            <p>THEMATICS</p>
+            <div style={styles.container}>
+            <p style={styles.cadre}>THEMATICS</p>
             <Forest onClick={showBeachWebcam} />
             <Beach onClick={showMountainWebcam} />
             <Mountain onClick={showForestWebcam} />
             <Desert onClick={showIslandWebcam} />
+
         </div>
         ); 
-    }
-
-    
+    }  
 }
 
 export default Thematics
