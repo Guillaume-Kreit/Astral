@@ -4,9 +4,9 @@ import Forest from './sub-Thematics/Forest';
 import Mountain from './sub-Thematics/Mountain';
 import Desert from './sub-Thematics/Desert';
 
-const Thematics = () => {
+class Thematics extends React.Component {
 
-    const styles = {
+    styles = {
         container: {
             display: 'flex',
             fontSize : '40px',
@@ -14,16 +14,27 @@ const Thematics = () => {
             backGroundColor: 'yellow',
         }
         }
+    
+    render () {
+        const { 
+            showBeachWebcam,
+            showMountainWebcam,
+            showForestWebcam,
+            showIslandWebcam,
+        } = this.props
 
-    return(
+       return(
         <div >
-        <p style={styles.container}>THEMATICS</p>
-        <Forest />
-        <Beach />
-        <Mountain />
-        <Desert />
+            <p>THEMATICS</p>
+            <Forest onClic={showBeachWebcam} />
+            <Beach onClic={showMountainWebcam} />
+            <Mountain onClic={showForestWebcam} />
+            <Desert onClic={showIslandWebcam} />
         </div>
-    );
+        ); 
+    }
+
+    
 }
 
 export default Thematics

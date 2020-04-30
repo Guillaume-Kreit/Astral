@@ -3,6 +3,7 @@ import Thematics from './Thematics';
 import Title from "./Title";
 import Timer from "./Timer";
 import Start from "./Start";
+import Webcam from './Webcam';
 
 
 class YogaRoom extends React.Component {  
@@ -16,13 +17,16 @@ class YogaRoom extends React.Component {
     }
 
     render () {
+
         return (
-        <div>
-            <Title />
-            <Thematics />
-            <Timer />
-            <Start />
-        </div>
+            <>
+                <div>
+                    <Title />
+                    <Thematics {...this.props}/>
+                    <Timer />
+                    <Start />
+                </div>
+            </>
         )
     }
 }
