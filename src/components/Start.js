@@ -15,13 +15,13 @@ const Start = () => {
             border: '3px beige solid',
             padding: '15px 15px',
             borderRadius: '20px',
-            textDecoration: 'none',
+            textDecoration: 'underline',
         }
         }
 
     return(
         <nav style={styles.container}>
-            <Link activeClassName="active" exact to="/YogaSession">
+            <Link activeClassName="active" exact to="/MeditationSession">
                 <p style={styles.cadre}>Go</p>
             </Link>
         </nav>

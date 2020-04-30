@@ -20,7 +20,7 @@ const Begin = () => {
 }
   return(
     <nav style={styles.container}>
-      <Link style={styles.cadre} exact to="/YogaRoom">
+      <Link style={styles.cadre} exact to="/MeditationRoom">
             MEDITATE NOW
       </Link>
     </nav>
