@@ -7,9 +7,11 @@ const Start = () => {
             display: 'flex',
             fontSize : '40px',
             justifyContent: 'center',
+            color : 'white',
         },
         cadre: {
-            border: '3px blue solid',
+            border: '3px white solid',
+            padding : '10px',
         }
         }
 
