@@ -10,7 +10,7 @@ class Mountain extends React.Component {
         },
         cadre: {
             textAlign: 'center',
-            color: 'white',
+            color: 'beige',
             border: '3px beige solid',
             padding: '15px 15px',
             borderRadius: '60px',

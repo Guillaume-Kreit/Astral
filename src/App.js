@@ -10,7 +10,7 @@ class App extends React.Component {
 
   state = {
     isActive: true,
-    id: '1010243760',
+    id: '',
     category: '',
   }
 
@@ -28,7 +28,7 @@ class App extends React.Component {
           console.log(res.data.result.webcams[0].id)
           this.setState({
             isActive: true,
-            id: res.data.result.webcams[0].id,
+            id: '1404370895',
             });
         })
         .catch(err => {
@@ -47,7 +47,7 @@ class App extends React.Component {
           console.log(res.data.result.webcams[0].id)
               this.setState({
                   isActive: true,
-                  id: res.data.result.webcams[0].id,
+                  id: '1558347165',
                   });
         })
         .catch(err => {
@@ -66,7 +66,7 @@ class App extends React.Component {
           console.log(res.data.result.webcams[0].id)
               this.setState({
                   isActive: true,
-                  id: res.data.result.webcams[0].id,
+                  id: '1426155608',
                   });
         })
         .catch(err => {
@@ -85,7 +85,7 @@ class App extends React.Component {
           console.log(res.data.result.webcams[0].id)
               this.setState({
                   isActive: true,
-                  id: res.data.result.webcams[0].id,
+                  id: '1389873833',
                   });
         })
         .catch(err => {
@@ -101,7 +101,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route
-              path="/YogaRoom"
+              path="/MeditationRoom"
               render={props => {
                 return (
                   <YogaRoom
@@ -113,7 +113,7 @@ class App extends React.Component {
                   />)
               }} />
           <Route 
-              path="/YogaSession" 
+              path="/MeditationSession" 
               render={props => {
                 return (
                   <YogaSession
