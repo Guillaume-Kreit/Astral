@@ -26,10 +26,10 @@ class Thematics extends React.Component {
        return(
         <div >
             <p>THEMATICS</p>
-            <Forest onClic={showBeachWebcam} />
-            <Beach onClic={showMountainWebcam} />
-            <Mountain onClic={showForestWebcam} />
-            <Desert onClic={showIslandWebcam} />
+            <Forest onClick={showBeachWebcam} />
+            <Beach onClick={showMountainWebcam} />
+            <Mountain onClick={showForestWebcam} />
+            <Desert onClick={showIslandWebcam} />
         </div>
         ); 
     }

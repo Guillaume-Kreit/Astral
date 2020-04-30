@@ -3,7 +3,6 @@ import Thematics from './Thematics';
 import Title from "./Title";
 import Timer from "./Timer";
 import Start from "./Start";
-import Webcam from './Webcam';
 
 
 class YogaRoom extends React.Component {  

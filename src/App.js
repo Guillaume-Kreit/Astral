@@ -20,7 +20,7 @@ class App extends React.Component {
       })
       
     axios
-      .get('https://api.windy.com/api/webcams/v2/list/?key=20FwpHPZeZxGaR9V4acnJGDG0r5kTh04', {
+      .get('https://api.windy.com/api/webcams/v2/list/category=beach/property=hd?key=20FwpHPZeZxGaR9V4acnJGDG0r5kTh04', {
         method: 'get',
         })
         .then(res => {
@@ -39,7 +39,7 @@ class App extends React.Component {
     this.setState({ category : 'mountain' })
       
     axios
-        .get('https://api.windy.com/api/webcams/v2/list/category=mountain?key=20FwpHPZeZxGaR9V4acnJGDG0r5kTh04', {
+        .get('https://api.windy.com/api/webcams/v2/list/category=mountain/property=hd?key=20FwpHPZeZxGaR9V4acnJGDG0r5kTh04', {
             method: 'get',
           })
         .then(res => {
@@ -58,7 +58,7 @@ class App extends React.Component {
       this.setState({ category : 'forest' })
       
       axios
-        .get('https://api.windy.com/api/webcams/v2/list/category=forest?key=20FwpHPZeZxGaR9V4acnJGDG0r5kTh04', {
+        .get('https://api.windy.com/api/webcams/v2/list/category=forest/property=hd?key=20FwpHPZeZxGaR9V4acnJGDG0r5kTh04', {
             method: 'get',
           })
         .then(res => {
@@ -77,7 +77,7 @@ class App extends React.Component {
       this.setState({ category : 'island' })
       
       axios
-        .get('https://api.windy.com/api/webcams/v2/list/category=island?key=20FwpHPZeZxGaR9V4acnJGDG0r5kTh04', {
+        .get('https://api.windy.com/api/webcams/v2/list/category=island/property=hd?key=20FwpHPZeZxGaR9V4acnJGDG0r5kTh04', {
             method: 'get',
           })
         .then(res => {
