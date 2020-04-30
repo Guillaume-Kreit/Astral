@@ -32,10 +32,10 @@ class Thematics extends React.Component {
        return(
             <div style={this.styles.container}>
             <p style={this.styles.cadre}>THEMATICS</p>
-            <Forest onClick={showBeachWebcam} />
-            <Beach onClick={showMountainWebcam} />
-            <Mountain onClick={showForestWebcam} />
-            <Desert onClick={showIslandWebcam} />
+            <Forest showForestWebcam={showForestWebcam} />
+            <Beach showBeachWebcam={showBeachWebcam} />
+            <Mountain showMountainWebcam={showMountainWebcam} />
+            <Desert showIslandWebcam={showIslandWebcam} />
 
         </div>
         ); 

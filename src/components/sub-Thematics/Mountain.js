@@ -15,7 +15,7 @@ class Mountain extends React.Component {
 
     render () {
         return (
-        <div style={this.styles.container}>
+        <div style={this.styles.container} onClick={(event)=>this.props.showMountainWebcam(event)}>
             <p style={this.styles.cadre} >MONTAIN</p>
         </div>
         )

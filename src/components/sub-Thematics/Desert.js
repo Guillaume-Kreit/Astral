@@ -15,7 +15,7 @@ class Desert extends React.Component {
 
     render () {
         return (
-        <div style={this.styles.container}>
+        <div style={this.styles.container} onClick={(event)=>this.props.showIslandWebcam(event)}>
             <p style={this.styles.cadre} >DESERT</p>
         </div>
         )

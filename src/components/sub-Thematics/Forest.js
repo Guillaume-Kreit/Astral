@@ -14,8 +14,9 @@ class Forest extends React.Component {
     }
 
     render () {
+    
         return (
-        <div style={this.styles.container}>
+        <div style={this.styles.container} onClick={(event)=>this.props.showForestWebcam(event)} >
             <p style={this.styles.cadre} >FOREST</p>
         </div>
         )

@@ -15,6 +15,7 @@ class App extends React.Component {
   }
 
   showBeachWebcam = () => {
+    console.log('BEACH')
     this.setState({ 
       category : 'beach'
       })

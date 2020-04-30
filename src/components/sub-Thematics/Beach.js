@@ -15,7 +15,7 @@ class Beach extends React.Component {
 
     render () {
         return (
-        <div style={this.styles.container}>
+        <div style={this.styles.container} onClick={(event)=>this.props.showBeachWebcam(event)}>
             <p style={this.styles.cadre} >BEACH</p>
         </div>
         )
