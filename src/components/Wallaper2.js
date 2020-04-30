@@ -1,7 +1,7 @@
 import React from 'react';
-import couch from "./img/couchfinal.jpg";
+import wallaper from "./img/couch.jpg";
 
-const Wallaper = () => {
+const Wallaper2 = () => {
 
     const styles = {
         container: {
@@ -11,10 +11,10 @@ const Wallaper = () => {
 
     return(
         <div style={styles.container}>
-            <img src={couch} style={{height: '100vh', width:'100vw'}}/>
+            <img src={wallaper} style={{height: '100vh', width:'100vw'}}/>
         </div>
     );
     
 }
 
-export default Wallaper;
+export default Wallaper2;

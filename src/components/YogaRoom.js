@@ -4,7 +4,7 @@ import Title from "./Title";
 import Timer from "./Timer";
 import Start from "./Start";
 // import Webcam from "./Webcam";
-import Wallaper from "./Wallaper";
+import Wallaper2 from "./Wallaper2";
 
 
 class YogaRoom extends React.Component {  
@@ -26,7 +26,7 @@ class YogaRoom extends React.Component {
         return (
             
             <div style={this.styles.container}>
-                <Wallaper/>
+                <Wallaper2/>
                 <Title/>
                 <Thematics style={this.styles.left}  {...this.props}/>
                 <Timer />
