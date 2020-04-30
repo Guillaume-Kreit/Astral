@@ -5,14 +5,17 @@ class Forest extends React.Component {
         container: {
             display: 'flex',
             justifyContent: 'center',
-            color : 'white',
-            border: '3px white solid',
             padding : '20px',
             width: '70px',
         },
         cadre: {
             padding : '5px',
-            textAlign: 'center'
+            textAlign: 'center',
+            color: 'white',
+            border: '3px white solid',
+            padding: '15px 15px',
+            borderRadius: '20px',
+            textDecoration: 'none',
         }
     }
 

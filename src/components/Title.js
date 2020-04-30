@@ -13,7 +13,7 @@ const Title = () => {
 
     return(
         <div style={styles.container}>
-            <h1>Parameter</h1>
+            <h1>Meet your Inner Child</h1>
         </div>
     );
     
