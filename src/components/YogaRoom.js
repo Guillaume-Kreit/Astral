@@ -14,13 +14,18 @@ class YogaRoom extends React.Component {
             width : '100%',
             height : '100vh',
         },
+
+        left: {
+            backgroundColor : 'yellow',
+            color : 'red',
+        }
     }
 
     render () {
         return (
         <div style={this.styles.container}>
-            <Title />
-            <Thematics />
+            <Title/>
+            <Thematics style={this.styles.left} />
             {/* <Webcam/> */}
             <Timer />
             <Start />

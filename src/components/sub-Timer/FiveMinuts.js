@@ -5,10 +5,10 @@ class FiveMinuts extends React.Component {
         container: {
             display: 'flex',
             justifyContent: 'center',
-            color : 'red',
+            color : 'white',
         },
         cadre: {
-            border: '3px red solid',
+            border: '3px white solid',
             padding : '5px',
         }
     }

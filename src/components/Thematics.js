@@ -9,16 +9,22 @@ const Thematics = () => {
     const styles = {
         container: {
             display: 'flex',
+        },
+
+        cadre : {
+            
             fontSize : '40px',
             marginLeft : '15%',
-            backGroundColor: 'yellow',
+            width : '25%',
             color : 'white',
-        }
+            
         }
 
+    }
+
     return(
-        <div >
-        <p style={styles.container}>THEMATICS</p>
+        <div style={styles.container}>
+        <p style={styles.cadre}>THEMATICS</p>
         <Forest />
         <Beach />
         <Mountain />
