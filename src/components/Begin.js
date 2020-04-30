@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 const Begin = () => {
   const styles = {
     container: {
-        textDecoration: 'none',
         display: 'flex',
         fontSize : '40px',
         justifyContent: 'center',
@@ -12,9 +11,11 @@ const Begin = () => {
         marginTop: '150px',
     },
     cadre:{
+      color: 'white',
       border: '3px white solid',
       padding: '15px 15px',
-      borderRadius: '20px'
+      borderRadius: '20px',
+      textDecoration: 'none',
     }
 }
   return(
