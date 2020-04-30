@@ -8,7 +8,8 @@ class SubMenuCam extends React.Component {
 
     styles = {
         container: {
-            alignContent: 'flex-end',
+            flexDirection: 'column',
+            alignItems: 'flex-end',
             width: '100vw',
             height: '40px',
             opacity: '0.73',

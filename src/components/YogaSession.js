@@ -15,10 +15,10 @@ class YogaSession extends React.Component {
 
     render () {
         return (
-        <>
+        <div style={this.styles.container} >
             <Webcam {...this.props}/>
             <SubMenuCam />
-        </>
+        </div>
         )
     }
 }
