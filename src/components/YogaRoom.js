@@ -11,7 +11,6 @@ class YogaRoom extends React.Component {
         container: {
             backgroundColor : 'pink',
             backgroundImage : "url('../img/85fca7a3fb831303eda8098077265408.jpg') ",
-
             width : '100%',
             height : '100vh',
         },

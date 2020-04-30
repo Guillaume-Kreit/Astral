@@ -4,17 +4,19 @@ class TenMinuts extends React.Component {
     styles = {
         container: {
             display: 'flex',
-            height: '30vh',
-            width: '80%',
-            margin: '0px',
-            backGroundColor: 'yellow',
+            justifyContent: 'center',
+            color : 'red',
         },
+        cadre: {
+            border: '3px red solid',
+            padding : '5px',
+        }
     }
 
     render () {
         return (
-        <div>
-            <p>10MINUTS</p>
+        <div style={this.styles.container}>
+            <p style={this.styles.cadre} >Teen Minuts</p>
         </div>
         )
     }
