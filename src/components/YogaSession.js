@@ -1,5 +1,6 @@
 import React from "react";
 import Webcam from './Webcam';
+import Song from "./Song";
 
 
 class YogaSession extends React.Component {  
@@ -16,6 +17,7 @@ class YogaSession extends React.Component {
         return (
         <div style={this.styles.container} >
             <Webcam {...this.props}/>
+            <Song/>
         </div>
         )
     }
