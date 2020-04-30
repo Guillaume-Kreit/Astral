@@ -11,7 +11,6 @@ class Song extends React.Component {
     render () {
         return (
         <div style={this.styles.container}>
-            <p>Audio</p>
             <audio controls="controls">
                 <source src={song}></source>
             </audio>
