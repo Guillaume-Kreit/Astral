@@ -7,23 +7,19 @@ const Timer = () => {
     const styles = {
         container: {
             display: 'flex',
-        },
-
-        cadre : {
-            
-            fontSize : '40px',
-            marginLeft : '15%',
-            width : '25%',
+            justifyContent: 'center',
+            fontSize : '20px',
             color : 'white',
             
-        }
+        },
     }
 
     return(
         <div style={styles.container}>
-        <p style={styles.cadre}>TIME</p>
+        
             <FiveMinuts />
             <TenMinuts />
+        
         </div>
     );
 }

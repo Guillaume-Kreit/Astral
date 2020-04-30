@@ -7,13 +7,13 @@ class FiveMinuts extends React.Component {
             justifyContent: 'center',
             color : 'white',
             padding : '20px',
-            width: '120px',
+            width: '90px',
         },
         cadre: {
             color: 'white',
             border: '3px white solid',
             padding: '15px 15px',
-            borderRadius: '20px',
+            borderRadius: '60px',
             textDecoration: 'none',
         }
     }
