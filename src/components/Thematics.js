@@ -9,16 +9,11 @@ class Thematics extends React.Component {
     styles = {
         container: {
             display: 'flex',
-        },
-
-        cadre : {
-            
-            fontSize : '40px',
-            marginLeft : '15%',
-            width : '25%',
+            justifyContent: 'center',
+            fontSize : '15px',
             color : 'white',
             
-        }
+        },
     }
     
     render () {
@@ -31,7 +26,6 @@ class Thematics extends React.Component {
 
        return(
             <div style={this.styles.container}>
-            <p style={this.styles.cadre}>THEMATICS</p>
             <Forest showForestWebcam={showForestWebcam} />
             <Beach showBeachWebcam={showBeachWebcam} />
             <Mountain showMountainWebcam={showMountainWebcam} />

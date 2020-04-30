@@ -14,7 +14,7 @@ const Start = () => {
             color: 'white',
             border: '3px white solid',
             padding: '15px 15px',
-            borderRadius: '20px',
+            borderRadius: '40px',
             textDecoration: 'none',
         }
         }
