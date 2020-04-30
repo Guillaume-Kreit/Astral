@@ -9,6 +9,7 @@ const Timer = () => {
             display: 'flex',
             fontSize : '40px',
             marginLeft : '15%',
+            color : 'white',
         }
         }
 

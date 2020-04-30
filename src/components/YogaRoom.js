@@ -3,23 +3,26 @@ import Thematics from './Thematics';
 import Title from "./Title";
 import Timer from "./Timer";
 import Start from "./Start";
+// import Webcam from "./Webcam";
 
 
 class YogaRoom extends React.Component {  
     styles = {
         container: {
-            display: 'flex',
-            height: '100vh',
-            width: '100%',
-            margin: '0px',
+            backgroundColor : 'pink',
+            backgroundImage : "url('../img/85fca7a3fb831303eda8098077265408.jpg') ",
+
+            width : '100%',
+            height : '100vh',
         },
     }
 
     render () {
         return (
-        <div>
+        <div style={this.styles.container}>
             <Title />
             <Thematics />
+            {/* <Webcam/> */}
             <Timer />
             <Start />
         </div>

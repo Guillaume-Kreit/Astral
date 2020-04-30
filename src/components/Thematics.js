@@ -12,6 +12,7 @@ const Thematics = () => {
             fontSize : '40px',
             marginLeft : '15%',
             backGroundColor: 'yellow',
+            color : 'white',
         }
         }
 
