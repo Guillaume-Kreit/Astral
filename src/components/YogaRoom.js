@@ -4,13 +4,14 @@ import Title from "./Title";
 import Timer from "./Timer";
 import Start from "./Start";
 // import Webcam from "./Webcam";
+//import zen from "../img/zen";
 
 
 class YogaRoom extends React.Component {  
     styles = {
         container: {
             backgroundColor : 'pink',
-            backgroundImage : "url('../img/85fca7a3fb831303eda8098077265408.jpg') ",
+            backgroundImage : "src('../img/zen.jpg') ",
             width : '100%',
             height : '100vh',
         },
