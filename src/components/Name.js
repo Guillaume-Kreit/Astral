@@ -10,7 +10,7 @@ const Name = () => {
     }
     return(
         <div style={styles.container}>
-            <h1>ASTRAL JOURNEY</h1>
+            <h1>TRAVEL FROM YOUR COUCH</h1>
         </div>
     )
 };

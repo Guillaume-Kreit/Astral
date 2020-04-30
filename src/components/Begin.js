@@ -8,20 +8,20 @@ const Begin = () => {
         justifyContent: 'center',
         borderRadius: '20px',
         alignItems: 'flex-end',
-        marginTop: '150px',
+        marginTop: '320px',
     },
     cadre:{
       color: 'white',
       border: '3px white solid',
       padding: '15px 15px',
-      borderRadius: '20px',
+      borderRadius: '60px',
       textDecoration: 'none',
     }
 }
   return(
     <nav style={styles.container}>
       <Link style={styles.cadre} exact to="/YogaRoom">
-            BEGIN !
+            MEDITATE NOW
       </Link>
     </nav>
   )

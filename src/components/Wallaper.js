@@ -1,5 +1,5 @@
 import React from 'react';
-import relax2 from "./img/relax2.jpg";
+import couch from "./img/couch.jpg";
 
 const Wallaper = () => {
 
@@ -11,7 +11,7 @@ const Wallaper = () => {
 
     return(
         <div style={styles.container}>
-            <img src={relax2} style={{height: '100vh', width:'100vw'}}/>
+            <img src={couch} style={{height: '100vh', width:'100vw'}}/>
         </div>
     );
     
