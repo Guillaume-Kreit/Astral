@@ -1,23 +1,29 @@
-import React from "react";
+import React from 'react';
+import { Link } from "react-router-dom";
 
-class Start extends React.Component {  
-    styles = {
+const Start = () => {
+
+    const styles = {
         container: {
             display: 'flex',
-            height: '30vh',
-            width: '80%',
-            margin: '0px',
-            backGroundColor: 'yellow',
+            fontSize : '40px',
+            justifyContent: 'center',
+            color : 'white',
         },
-    }
+        cadre: {
+            border: '3px white solid',
+            padding : '10px',
+        }
+        }
 
-    render () {
-        return (
-        <div>
-            <p>START</p>
-        </div>
-        )
-    }
+    return(
+        <nav style={styles.container}>
+            <Link activeClassName="active" exact to="/YogaSession">
+                <p style={styles.cadre}>Okay</p>
+            </Link>
+        </nav>
+    );
+    
 }
 
-export default Start
+export default Start;
