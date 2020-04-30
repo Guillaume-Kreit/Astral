@@ -6,6 +6,7 @@ const Name = () => {
             display: 'flex',
             fontSize : '40px',
             justifyContent: 'center',
+            color: 'white',
         }
     }
     return(
