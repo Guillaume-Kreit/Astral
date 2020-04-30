@@ -1,5 +1,6 @@
 import React from "react";
 import Webcam from './Webcam';
+import SubMenuCam from "./SubMenuCam";
 
 
 class YogaSession extends React.Component {  
@@ -16,9 +17,7 @@ class YogaSession extends React.Component {
         return (
         <>
             <Webcam {...this.props}/>
-            <div>
-                <h1>YOGASESSION</h1>
-            </div>
+            <SubMenuCam />
         </>
         )
     }
