@@ -11,7 +11,8 @@ class Song extends React.Component {
     render () {
         return (
         <div style={this.styles.container}>
-            <audio controls="controls">
+            
+            <audio controls="controls" autoplay="autoplay">
                 <source src={song}></source>
             </audio>
         </div>

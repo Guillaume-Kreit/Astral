@@ -14,6 +14,12 @@ class YogaSession extends React.Component {
             alignItems: 'center',
             justifyContent: 'center',
         },
+
+        hide : {
+            alignItems: 'center',
+            position: 'absolute',
+            opacity: '0',
+        }
     }
 
     render () {
@@ -25,8 +31,11 @@ class YogaSession extends React.Component {
                 </div>
             </div>
             <Webcam {...this.props}/>
-            <Song/>
+            <div style={this.styles.hide} >
+                <Song/>
+            </div>
         </div>
+        
         )
     }
 }
