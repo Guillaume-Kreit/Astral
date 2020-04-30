@@ -22,15 +22,14 @@ class YogaRoom extends React.Component {
     }
 
     render () {
+
         return (
             
             <div style={this.styles.container}>
                 <Wallaper/>
                 <Title/>
-                <Thematics style={this.styles.left} />
-                {/* <Webcam/> */}
+                <Thematics style={this.styles.left}  {...this.props}/>
                 <Timer />
-                
                 <Start />
             </div>
         )
