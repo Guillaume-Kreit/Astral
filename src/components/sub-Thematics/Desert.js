@@ -12,7 +12,7 @@ class Desert extends React.Component {
             padding : '5px',
             textAlign: 'center',
             color: 'white',
-            border: '3px white solid',
+            border: '3px beige solid',
             padding: '15px 15px',
             borderRadius: '60px',
             textDecoration: 'none',

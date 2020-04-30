@@ -11,7 +11,7 @@ class Thematics extends React.Component {
             display: 'flex',
             justifyContent: 'center',
             fontSize : '15px',
-            color : 'white',
+            color : 'beige',
             
         },
     }

@@ -5,15 +5,15 @@ class Beach extends React.Component {
         container: {
             display: 'flex',
             justifyContent: 'center',
-            color : 'white',
+            color : 'beige',
             padding: '20px',
             width: '70px',
             padding : '20px',
         },
         cadre: {
             textAlign: 'center',
-            color: 'white',
-            border: '3px white solid',
+            color: 'beige',
+            border: '3px beige solid',
             padding: '15px 15px',
             borderRadius: '60px',
             textDecoration: 'none',

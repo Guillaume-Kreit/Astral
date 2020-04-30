@@ -11,8 +11,8 @@ const Begin = () => {
         marginTop: '320px',
     },
     cadre:{
-      color: 'white',
-      border: '3px white solid',
+      color: 'beige',
+      border: '3px beige solid',
       padding: '15px 15px',
       borderRadius: '60px',
       textDecoration: 'none',

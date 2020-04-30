@@ -8,13 +8,13 @@ const Start = () => {
             display: 'flex',
             fontSize : '40px',
             justifyContent: 'center',
-            color : 'white',
+            color : 'beige',
         },
         cadre: {
-            color: 'white',
-            border: '3px white solid',
+            color: 'beige',
+            border: '3px beige solid',
             padding: '15px 15px',
-            borderRadius: '40px',
+            borderRadius: '20px',
             textDecoration: 'none',
         }
         }
@@ -22,7 +22,7 @@ const Start = () => {
     return(
         <nav style={styles.container}>
             <Link activeClassName="active" exact to="/YogaSession">
-                <p style={styles.cadre}>Relax</p>
+                <p style={styles.cadre}>Go</p>
             </Link>
         </nav>
     );

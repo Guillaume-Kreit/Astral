@@ -9,7 +9,7 @@ const Timer = () => {
             display: 'flex',
             justifyContent: 'center',
             fontSize : '20px',
-            color : 'white',
+            color : 'beige',
             
         },
     }
