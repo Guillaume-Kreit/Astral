@@ -5,7 +5,7 @@ import Name from './Name'
 const HomePage = () => {
     return(
         <div>
-            <Name />
+            <Name/>
             <Begin/>
         </div>
     )
